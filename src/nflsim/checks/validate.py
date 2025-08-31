@@ -9,7 +9,10 @@ from typing import TypedDict
 
 import pandas as pd
 
-from .schemas import validate_pbp
+from .schemas import (
+    validate_participation,
+    validate_pbp,
+)  # <- make sure both are imported
 
 
 class SeasonMeta(TypedDict):
@@ -61,3 +64,9 @@ def _validate_partitioned(
 
 def validate_and_tag_pbp(root: str = "data/processed/pbp") -> Report:
     return _validate_partitioned(root, "pbp.parquet", validate_pbp)
+
+
+def validate_and_tag_participation(
+    root: str = "data/processed/participation",
+) -> Report:
+    return _validate_partitioned(root, "participation.parquet", validate_participation)

@@ -1,3 +1,4 @@
+from glob import glob
 from pathlib import Path
 
 import duckdb
@@ -16,4 +17,10 @@ def register_views(con=None):
         "CREATE OR REPLACE VIEW pbp AS "
         "SELECT * FROM read_parquet('data/processed/pbp/season=*/pbp.parquet')"
     )
+    if glob("data/processed/participation/season=*/participation.parquet"):
+        con.execute(
+            "CREATE OR REPLACE VIEW participation AS "
+            "SELECT * FROM read_parquet("
+            "'data/processed/participation/season=*/participation.parquet')"
+        )
     return con
