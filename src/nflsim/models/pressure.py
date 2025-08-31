@@ -1,0 +1,3 @@
+def train():
+    """Stub: train pressure probability model."""
+    ...

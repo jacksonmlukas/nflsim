@@ -1,0 +1,3 @@
+def run():
+    """Stub: scrape NFL.com injuries."""
+    ...

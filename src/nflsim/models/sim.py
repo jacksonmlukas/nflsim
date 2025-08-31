@@ -1,0 +1,3 @@
+def simulate_week():
+    """Stub: drive-first simulator with endgame play sim."""
+    ...

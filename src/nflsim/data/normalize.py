@@ -1,0 +1,3 @@
+def run():
+    """Stub: cast types, enums, resolve keys."""
+    ...

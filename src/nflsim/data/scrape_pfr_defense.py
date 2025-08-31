@@ -1,0 +1,3 @@
+def run():
+    """Stub: scrape PFR advanced defense."""
+    ...

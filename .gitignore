@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.env
+
+# Data & models
+data/raw/
+data/external/
+data/interim/
+data/processed/
+data/features/
+data/models/
+data/reports/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/
+*.egg-info/

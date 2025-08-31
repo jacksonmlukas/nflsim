@@ -1,0 +1,3 @@
+def train():
+    """Stub: train play-calling classifier."""
+    ...

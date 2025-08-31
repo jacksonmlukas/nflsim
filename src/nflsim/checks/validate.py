@@ -1,0 +1,3 @@
+def run():
+    """Stub: validate datasets against schemas."""
+    ...

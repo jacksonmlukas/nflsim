@@ -1,0 +1,3 @@
+def build():
+    """Stub: WR/TE/RB target share features."""
+    ...

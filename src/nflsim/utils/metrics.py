@@ -1,0 +1,3 @@
+def brier():
+    """Stub: Brier score."""
+    ...

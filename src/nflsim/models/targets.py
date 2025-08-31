@@ -1,0 +1,3 @@
+def train():
+    """Stub: train target/catch/YAC models."""
+    ...

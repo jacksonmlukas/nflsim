@@ -1,0 +1,10 @@
+site_name: nflsim Docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Data & Schemas: data_schemas.md
+  - Pipelines: pipelines.md
+  - Models: models.md
+  - Simulator: simulator.md
+  - Operations: ops.md

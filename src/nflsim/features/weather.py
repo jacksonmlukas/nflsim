@@ -1,0 +1,3 @@
+def build():
+    """Stub: weather transforms."""
+    ...

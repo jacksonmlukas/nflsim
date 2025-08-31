@@ -1,0 +1,3 @@
+def build():
+    """Stub: compute xPass & PROE features."""
+    ...

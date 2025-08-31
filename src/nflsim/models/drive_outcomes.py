@@ -1,0 +1,3 @@
+def train():
+    """Stub: train drive outcome model."""
+    ...

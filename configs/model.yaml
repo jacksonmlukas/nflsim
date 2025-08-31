@@ -1,0 +1,10 @@
+rating:
+  k_base: 18.0
+  hfa_mode: dynamic
+  qb_cpoe_weight: 0.35
+playcall:
+  model: gbm
+pressure:
+  include_sim_creeper: true
+targets:
+  roles: ["WR1","WR2","SLOT","TE","RB"]

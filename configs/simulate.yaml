@@ -1,0 +1,5 @@
+simulate:
+  mc_runs: 100000
+  endgame_play_level: true
+  endgame_threshold_wp: [0.25, 0.75]
+  seed: 42

@@ -1,0 +1,6 @@
+project_name: nflsim
+paths:
+  data_root: data
+  duckdb_path: data/nflsim.duckdb
+logging:
+  level: INFO

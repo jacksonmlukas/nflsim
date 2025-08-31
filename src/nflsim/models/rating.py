@@ -1,0 +1,3 @@
+def train():
+    """Stub: train unit rating model."""
+    ...

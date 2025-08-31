@@ -1,0 +1,3 @@
+def week_range():
+    """Stub: helpers for season/week ranges."""
+    ...

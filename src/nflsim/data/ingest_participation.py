@@ -1,0 +1,3 @@
+def run():
+    """Stub: load participation tables."""
+    ...

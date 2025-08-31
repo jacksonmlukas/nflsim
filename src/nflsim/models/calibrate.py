@@ -1,0 +1,3 @@
+def fit():
+    """Stub: isotonic/Platt calibration to lines/totals."""
+    ...

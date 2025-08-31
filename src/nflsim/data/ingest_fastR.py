@@ -1,0 +1,3 @@
+def run():
+    """Stub: load nflfastR play-by-play."""
+    ...

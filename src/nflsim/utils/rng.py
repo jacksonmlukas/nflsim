@@ -1,0 +1,3 @@
+def seed_all(seed: int = 42):
+    """Stub: set RNG seeds."""
+    ...

@@ -1,0 +1,9 @@
+sources:
+  nflfastR: true
+  participation: true
+  pfr_defense: true
+  nfl_injuries: true
+  ourlads: true
+partitions:
+  start_season: 2014
+  end_season: 2025
