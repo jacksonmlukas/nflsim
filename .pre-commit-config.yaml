@@ -3,17 +3,21 @@ repos:
     rev: v0.6.9
     hooks:
       - id: ruff
-        args: [--fix, --unsafe-fixes]
-      - id: ruff-format
+        args: ["--fix", "--unsafe-fixes"]
+        exclude: '^(data/|\.venv/|build/|dist/|docs/|notebooks/)'
   - repo: https://github.com/psf/black
     rev: 24.8.0
     hooks:
       - id: black
+        exclude: '^(data/|\.venv/|build/|dist/|docs/|notebooks/)'
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.10.0
     hooks:
       - id: mypy
-        additional_dependencies: ["pydantic>=2"]
+        additional_dependencies:
+          - pydantic>=2
+          - pandas-stubs
+        files: ^src/
   - repo: https://github.com/kynan/nbstripout
     rev: 0.7.1
     hooks:

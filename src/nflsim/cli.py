@@ -1,5 +1,7 @@
 from typer import Typer
+
 app = Typer(help="nflsim CLI (skeleton). Fill in pipelines before use.")
+
 
 @app.command()
 def hello():

@@ -1,3 +1,6 @@
 from dataclasses import dataclass
+
+
 @dataclass
-class PlayerKey: id: str
+class PlayerKey:
+    id: str
