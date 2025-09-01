@@ -15,12 +15,13 @@ def register_views(con=None):
     con = con or connect()
     con.execute(
         "CREATE OR REPLACE VIEW pbp AS "
-        "SELECT * FROM read_parquet('data/processed/pbp/season=*/pbp.parquet')"
+        "SELECT * FROM read_parquet("
+        "'data/processed/pbp/season=*/pbp.parquet', union_by_name=True)"
     )
     if glob("data/processed/participation/season=*/participation.parquet"):
         con.execute(
             "CREATE OR REPLACE VIEW participation AS "
             "SELECT * FROM read_parquet("
-            "'data/processed/participation/season=*/participation.parquet')"
+            "'data/processed/participation/season=*/participation.parquet', union_by_name=True)"
         )
     return con
